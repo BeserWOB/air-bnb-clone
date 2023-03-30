@@ -1,0 +1,79 @@
+body{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 70px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+}
+header > img{
+  width: 82px;
+  margin-left: 30px;
+}
+.main-section{
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.6em;
+  margin-bottom: 2em;
+}
+.main-title{
+  font-size: 2rem;
+  line-height: 1.1; 
+  margin-left: -4em;
+}
+.main-text{
+  font-weight: 300;
+  line-height: 1.1;
+  color: #222222;
+  margin-left: 2em;  
+}
+.cards{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-left: 2em;
+  margin-right: 2em;
+  overflow: scroll;
+}
+.card{
+  margin-left: 1.2em;
+  position: relative;
+}
+.card > img{
+  width: 200px;
+  height: 250px;
+  border-radius: 9px;
+}
+.open--spots{
+  position: absolute;
+  text-align: center;
+  border-radius: 2px;
+  background: #FFFFFF;
+  margin: 6px;
+  font-size: 0.7rem;
+  line-height: 1.8;
+  width: 33%;
+}
+.card--star{
+  width: 14px;
+  height: 14px;
+  margin-right: 3px;
+}
+.card--stats{
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+.gray{
+  color: #918E9B;
+}
+.bold{
+  font-weight: 700;
+}
+.card--title{
+  margin: 0;
+}
